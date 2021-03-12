@@ -2,10 +2,10 @@ replicas: 1
 
 namespace: project-foo
 env:
-  azdoUrl: https://dev.azure.com/foo
-  azdoPool: project-foo
-
+  azdoUrl: https://jaysson1710.visualstudio.com/
+  azdoPool: default
+  azdoToken: 3xnmxan7imq6fv5byxgsovesnotb6a75xmbmhvoqllxnogg3fc3q
 image:
-  repository: cizi/init-agent
+  repository: init-agent
   tag: latest
   pullPolicy: Always
