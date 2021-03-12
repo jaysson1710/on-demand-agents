@@ -1,5 +1,5 @@
 namespace: project-foo
 agent:
-  repository: cizi/demand-agent
-  type: nodejs
+  repository: jaysson1710/init-agent
+  type: latest
   pullPolicy: Always
