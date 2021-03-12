@@ -6,6 +6,6 @@ env:
   azdoPool: default
   azdoToken: .
 image:
-  repository: init-agent
+  repository: jaysson1710/init-agent
   tag: latest
   pullPolicy: Always
