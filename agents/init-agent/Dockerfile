@@ -23,5 +23,5 @@ RUN wget -q https://storage.googleapis.com/kubernetes-release/release/${KUBE_LAT
     && chmod +x /usr/local/bin/helm \
     && chmod g+rwx /root \
     && mkdir /config \
-    && chmod g+rwx /config 
-    #&& helm repo add zeiss https://github.com/jaysson1710/on-demand-agents.git
+    && chmod g+rwx /config \
+    && helm repo add azure https://github.com/jaysson1710/on-demand-agents.git
