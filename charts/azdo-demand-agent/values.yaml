@@ -1,5 +1,5 @@
 namespace: project-foo
 agent:
-  repository: jaysson1710/init-agent
+  repository: jaysson1710/devopsubuntu18.04
   type: latest
   pullPolicy: Always
