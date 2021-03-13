@@ -24,4 +24,4 @@ RUN wget -q https://storage.googleapis.com/kubernetes-release/release/${KUBE_LAT
     && chmod g+rwx /root \
     && mkdir /config \
     && chmod g+rwx /config \
-    && helm repo add azure https://github.com/jaysson1710/on-demand-agents.git
+    && helm repo add azure https://raw.githubusercontent.com/jaysson1710/on-demand-agents/master

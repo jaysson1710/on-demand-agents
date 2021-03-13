@@ -4,7 +4,7 @@ namespace: project-foo
 env:
   azdoUrl: https://jaysson1710.visualstudio.com/
   azdoPool: default
-  azdoToken: 3xnmxan7imq6fv5byxgsovesnotb6a75xmbmhvoqllxnogg3fc3q
+  azdoToken: 
 image:
   repository: jaysson1710/init-agent
   tag: latest
