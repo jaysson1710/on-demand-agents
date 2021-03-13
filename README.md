@@ -27,7 +27,7 @@ docker push jaysson1710/init-agent:latest
 creacion del agente de compilacion
 
 ```
-docker build -t demand-agent:dotnet \agents\demand-agent\Dockerfile.dotnet .
+docker build -t demand-agent:dotnet -f .\agents\demand-agent\Dockerfile.dotnet .
 ```
 Usar docker tag para etiquetar la imagen
 ```
@@ -64,6 +64,6 @@ se deben especificar los parametros:
 * namespace
 
 ```
- helm install initconsola azure/azdo-init-agent -n project-foo --set env.azdoUrl=https://jaysson1710.visualstudio.com/ --set env.azdoToken=******** --set env.azdoPool=default -n project-foo --wait
+ helm install initconsola azure/init-agent -n project-foo --set env.azdoUrl=https://jaysson1710.visualstudio.com/ --set env.azdoToken=******** --set env.azdoPool=default -n project-foo --wait
  ```
  
