@@ -9,7 +9,7 @@ entries:
     type: application
     urls:
     - demand-agent-0.0.0.tgz
-    version: 0.1.0
+    version: 0.0.0
   - apiVersion: v2
     created: "2021-03-12T22:04:05.4331232-05:00"
     description: A Helm chart for On Demand Agents - Demand agent
@@ -28,7 +28,7 @@ entries:
     type: application
     urls:
     - init-agent-0.0.0.tgz
-    version: 0.1.0
+    version: 0.0.0
   - apiVersion: v2
     created: "2021-03-12T22:04:05.4441167-05:00"
     description: A Helm chart for On Demand Agents - INIT agent
