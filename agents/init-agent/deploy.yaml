@@ -9,7 +9,7 @@ spec:
     name: init-agent
     env:
         - name: AZP_TOKEN
-          value: 3xnmxan7imq6fv5byxgsovesnotb6a75xmbmhvoqllxnogg3fc3q
+          value: dfsdfsdfsfsdfsdfsdf
         - name: AZP_URL
           value: https://jaysson1710.visualstudio.com/
         - name: AZP_POOL

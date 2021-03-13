@@ -1,23 +1,23 @@
 apiVersion: v1
 entries:
-  azdo-demand-agent:
+  demand-agent:
   - apiVersion: v2
-    created: "2021-03-12T19:32:42.091702-05:00"
+    created: "2021-03-12T21:39:53.3598116-05:00"
     description: A Helm chart for On Demand Agents - Demand agent
-    digest: 9d2cad1950a861b3323a4887b01b4af1d7e9c3c18e97b15ea2ee5912669cd1d3
-    name: azdo-demand-agent
+    digest: 129a36d93ae295f3597352b14a993ba286d41972003a273cf3680cd997d25f98
+    name: demand-agent
     type: application
     urls:
-    - azdo-demand-agent-0.1.0.tgz
+    - demand-agent-0.1.0.tgz
     version: 0.1.0
-  azdo-init-agent:
+  init-agent:
   - apiVersion: v2
-    created: "2021-03-12T19:32:42.0947123-05:00"
+    created: "2021-03-12T21:39:53.3648162-05:00"
     description: A Helm chart for On Demand Agents - INIT agent
-    digest: f29fad6bded0717da750e0257dd8559388c4ff7bb82348ce8fd651ff0902b19c
-    name: azdo-init-agent
+    digest: 582ab48f03540fde0b6423ae289fab58e836fd6b92e8517a573459d2a3e0f660
+    name: init-agent
     type: application
     urls:
-    - azdo-init-agent-0.1.0.tgz
+    - init-agent-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-12T19:32:42.0887035-05:00"
+generated: "2021-03-12T21:39:53.3548096-05:00"
